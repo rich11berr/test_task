@@ -47,9 +47,7 @@ function App() {
     }, [data, sortState]);
 
     const searchedData = useMemo(() => {
-        if (sortState) {
           return sortedData.filter((post) => post.title.includes(searchData));
-        } else return data;
     }, [searchData, sortedData]);
 
     return (
