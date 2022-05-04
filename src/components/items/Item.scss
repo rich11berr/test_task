@@ -1,0 +1,30 @@
+.item {
+    width: 1077px;
+    height: 87px;
+    display: inline-flex;
+    font-size: 13px;
+
+    &__id {
+        width: 110px;
+        border: 1px solid #E3E6EC;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__header {
+        width: 529px;
+        border: 1px solid #E3E6EC;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__descr {
+        width: 432px;
+        border: 1px solid #E3E6EC;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
